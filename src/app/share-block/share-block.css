@@ -1,0 +1,41 @@
+.share-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.share-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    bottom: 64px;
+    font-family: "Outfit", sans-serif;
+    color:#FFFFFE;
+    font-size: medium;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    background-color: #406AFF;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.share-btn img {
+    width: 18px;
+}
+
+.share-link {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.share-link-img {
+    display: block;
+}

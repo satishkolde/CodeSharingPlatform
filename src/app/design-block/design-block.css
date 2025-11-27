@@ -1,0 +1,45 @@
+.design-block{
+    position: absolute;
+    top:0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+}
+
+.hero-bg-img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: bottom;
+    max-width: 100vw;
+    z-index: -1;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 100px;
+}
+
+.hero-img {
+    width: 140px;
+    margin-bottom: 16px;
+}
+
+.hero-primary-heading {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #364153;
+}
+
+.hero-secondary-heading {
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #121826;
+}

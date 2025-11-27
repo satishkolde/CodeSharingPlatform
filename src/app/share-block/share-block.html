@@ -1,0 +1,23 @@
+<div class="share-block">
+    @if (!sharedButton) {
+        <div class="share-link" [cdkCopyToClipboard]="shareLink">
+            <img src="/resources/link.svg" class="share-link-img" alt="share-link-img" />
+        </div>
+    }
+    
+    @if (sharedButton) {
+        <button (click)="shareCode()" class="share-btn">
+            <img src="/resources/Share.svg" />
+            <div>
+                Share
+            </div>
+        </button>
+    }
+    @else {
+        <button (click)="navigateToNew()" class="share-btn">
+            <div>
+                Create New
+            </div>
+        </button>
+    }
+</div>

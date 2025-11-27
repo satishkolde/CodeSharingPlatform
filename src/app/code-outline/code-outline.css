@@ -1,0 +1,10 @@
+.outline-child {
+    white-space: pre;
+    font-family: "Outfit", sans-serif;
+    font-size: inherit;
+}
+
+.outline-child:last-child{
+    background-color: #4069ffbc;
+    border-radius: 2px;
+}

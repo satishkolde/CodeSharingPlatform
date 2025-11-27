@@ -1,0 +1,16 @@
+<div class="input-parent">
+    <div class="input-editor">
+        <div class="input-number">
+            @for (item of [].constructor(lines + 1); track $index) {
+                <div>{{ $index + 1 }}</div>
+            }
+        </div>
+        <textarea class="input-block" [formControl]="codeBlockInput"></textarea>
+        <div class="outline-section">
+            <app-code-outline [text]="outlineText"></app-code-outline>
+        </div>
+    </div>
+    <div class="share-code">
+        <app-share-block [sharedButton]="sharedButton"></app-share-block>
+    </div>
+</div>
