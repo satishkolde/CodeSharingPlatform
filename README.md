@@ -23,7 +23,7 @@ practical real-world use cases.
 
 -   **Frontend:** Angular
 -   **Styling:** CSS 
--   **Backend: ** Express.js
+-   **Backend:** Express.js
 -   **Others:** Clipboard APIs, UUID generation
 
 ------------------------------------------------------------------------
@@ -61,7 +61,7 @@ Install Backed dependencies:
     cd code-sharing
     npm install
 
-Install Backed dependencies:
+Run Backend server:
 
     node app.js
 
