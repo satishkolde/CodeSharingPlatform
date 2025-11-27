@@ -21,12 +21,10 @@ practical real-world use cases.
 
 ## 🛠️ Tech Stack
 
--   **Frontend:** Angular\
--   **Styling:** CSS / Tailwind (if applicable)\
--   **Backend (Optional):** Any API or mock server (depending on your
-    setup)\
--   **Others:** Clipboard APIs, UUID generation, code formatting
-    libraries (if used)
+-   **Frontend:** Angular
+-   **Styling:** CSS 
+-   **Backend: ** Express.js
+-   **Others:** Clipboard APIs, UUID generation
 
 ------------------------------------------------------------------------
 
@@ -36,10 +34,10 @@ The intent behind this project was to strengthen my understanding of
 **Angular** through a hands-on, practical application.\
 Building a real-world tool like this helped me explore:
 
--   Component-driven architecture\
--   State management\
--   Service-based communication\
--   Routing & dynamic parameters\
+-   Component-driven architecture
+-   State management
+-   Service-based communication
+-   Routing & dynamic parameters
 -   UI/UX design in Angular
 
 ------------------------------------------------------------------------
@@ -48,8 +46,7 @@ Building a real-world tool like this helped me explore:
 
 Clone the project:
 
-    git clone https://github.com/your-username/code-sharing-platform.git
-    cd code-sharing-platform
+    git clone https://github.com/satishkolde/CodeSharingPlatform.git
 
 Install dependencies:
 
@@ -58,6 +55,15 @@ Install dependencies:
 Run the development server:
 
     ng serve -o
+
+Install Backed dependencies:
+
+    cd code-sharing
+    npm install
+
+Install Backed dependencies:
+
+    node app.js
 
 ------------------------------------------------------------------------
 
@@ -72,7 +78,7 @@ Feel free to open a pull request.
 
 **Satish**\
 Full-Stack Developer \| Angular Enthusiast\
-GitHub: https://github.com/your-username
+GitHub: https://github.com/satish-kolde
 
 ------------------------------------------------------------------------
 
