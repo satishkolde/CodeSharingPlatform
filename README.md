@@ -1,59 +1,81 @@
-# CodeSharingPlatform
+# 📝 Code Sharing Platform
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+A simple and efficient web application that allows users to paste,
+store, and share code snippets instantly using unique shareable links.\
+This project was built to practice and apply my newly learned
+**Angular** skills while focusing on clean UI, smooth interactions, and
+practical real-world use cases.
 
-## Development server
+------------------------------------------------------------------------
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
-ng serve
-```
+-   🔗 **Shareable Links** --- Generate unique URLs for each code
+    snippet\
+-   📝 **Paste & Save Code** --- Supports all types of code/text\
+-   🎨 **Clean & Minimal UI** --- Built for distraction-free sharing\
+-   ⚡ **Fast & Lightweight** --- No overhead, instant access\
+-   📱 **Responsive Design** --- Works smoothly on desktop and mobile
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+------------------------------------------------------------------------
 
-## Code scaffolding
+## 🛠️ Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+-   **Frontend:** Angular\
+-   **Styling:** CSS / Tailwind (if applicable)\
+-   **Backend (Optional):** Any API or mock server (depending on your
+    setup)\
+-   **Others:** Clipboard APIs, UUID generation, code formatting
+    libraries (if used)
 
-```bash
-ng generate component component-name
-```
+------------------------------------------------------------------------
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 💡 Motivation
 
-```bash
-ng generate --help
-```
+The intent behind this project was to strengthen my understanding of
+**Angular** through a hands-on, practical application.\
+Building a real-world tool like this helped me explore:
 
-## Building
+-   Component-driven architecture\
+-   State management\
+-   Service-based communication\
+-   Routing & dynamic parameters\
+-   UI/UX design in Angular
 
-To build the project run:
+------------------------------------------------------------------------
 
-```bash
-ng build
-```
+## 🔧 Installation & Setup
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Clone the project:
 
-## Running unit tests
+    git clone https://github.com/your-username/code-sharing-platform.git
+    cd code-sharing-platform
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Install dependencies:
 
-```bash
-ng test
-```
+    npm install
 
-## Running end-to-end tests
+Run the development server:
 
-For end-to-end (e2e) testing, run:
+    ng serve -o
 
-```bash
-ng e2e
-```
+------------------------------------------------------------------------
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🤝 Contributing
 
-## Additional Resources
+Contributions, issues, and feature requests are welcome!\
+Feel free to open a pull request.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+------------------------------------------------------------------------
+
+## 🧑‍💻 Author
+
+**Satish**\
+Full-Stack Developer \| Angular Enthusiast\
+GitHub: https://github.com/your-username
+
+------------------------------------------------------------------------
+
+## ⭐ Show Your Support
+
+If you like this project, consider giving it a **star** ⭐ on GitHub!
